@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2014-09-29" view-index="1" gantt-divider-location="686" resource-divider-location="386" version="2.0" locale="pt_BR">
+    <description/>
+    <view zooming-state="default:7" id="gantt-chart">
+        <field id="tpd10" name="ID" width="4" order="0"/>
+        <field id="tpd3" name="Nome" width="54" order="1"/>
+        <field id="tpd4" name="Data inicial" width="14" order="2"/>
+        <field id="tpd5" name="Data final" width="12" order="3"/>
+        <field id="tpd9" name="Anteriores" width="13" order="4"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nome" width="78" order="0"/>
+        <field id="1" name="Função" width="21" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <calendar id="1" name="default">
+                <default-week sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+                <only-show-weekends value="false"/>
+                <overriden-day-types/>
+                <days/>
+            </calendar>
+        </day-types>
+        <date year="2012" month="2" date="20"/>
+        <date year="2012" month="2" date="21"/>
+        <date year="2012" month="4" date="6"/>
+        <date year="2012" month="4" date="8"/>
+        <date year="2012" month="6" date="7"/>
+        <date year="2005" month="3" date="25"/>
+        <date year="2006" month="4" date="14"/>
+        <date year="2007" month="2" date="19"/>
+        <date year="2007" month="2" date="20"/>
+        <date year="2007" month="4" date="6"/>
+        <date year="2007" month="6" date="7"/>
+        <date year="2008" month="3" date="21"/>
+        <date year="2009" month="4" date="10"/>
+        <date year="2010" month="4" date="2"/>
+        <date year="2011" month="4" date="22"/>
+        <date year="2011" month="4" date="24"/>
+        <date year="" month="1" date="1"/>
+        <date year="" month="4" date="21"/>
+        <date year="" month="5" date="1"/>
+        <date year="" month="9" date="7"/>
+        <date year="" month="10" date="12"/>
+        <date year="" month="11" date="1"/>
+        <date year="" month="11" date="2"/>
+        <date year="" month="11" date="15"/>
+        <date year="" month="12" date="25"/>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+            <taskproperty id="tpc0" name="" type="custom" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="IDÚnico" meeting="false" start="2014-10-22" duration="150" complete="0" expand="true">
+            <task id="1" name="Plano de gerenciamento do projeto" color="#000000" meeting="false" start="2014-10-22" duration="5" complete="0" priority="2" expand="true">
+                <depend id="41" type="2" difference="0" hardness="Strong"/>
+                <depend id="46" type="2" difference="0" hardness="Strong"/>
+                <task id="2" name="Custo" meeting="false" start="2014-10-22" duration="4" complete="0" expand="true">
+                    <depend id="38" type="2" difference="0" hardness="Strong"/>
+                    <task id="36" name="Planejar metas de custo" color="#8cb6ce" meeting="false" start="2014-10-22" duration="2" complete="0" expand="true">
+                        <depend id="20" type="2" difference="0" hardness="Strong"/>
+                        <depend id="37" type="2" difference="0" hardness="Strong"/>
+                        <depend id="46" type="2" difference="0" hardness="Strong"/>
+                        <depend id="61" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="37" name="Listar gastos previstos" color="#8cb6ce" meeting="false" start="2014-10-24" duration="2" complete="0" expand="true"/>
+                </task>
+                <task id="3" name="Tempo" meeting="false" start="2014-10-28" duration="1" complete="0" expand="true">
+                    <depend id="49" type="2" difference="0" hardness="Strong"/>
+                    <task id="38" name="Determinar tempo para cada atividade" color="#8cb6ce" meeting="false" start="2014-10-28" duration="1" complete="0" expand="true"/>
+                </task>
+                <task id="4" name="Escopo" meeting="false" start="2014-10-22" duration="5" complete="0" expand="true">
+                    <task id="40" name="Criar escopo do projeto" color="#8cb6ce" meeting="false" start="2014-10-22" duration="5" complete="0" expand="true">
+                        <depend id="48" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                </task>
+            </task>
+            <task id="6" name="Chip" meeting="false" start="2014-10-29" duration="105" complete="0" expand="true">
+                <task id="7" name="Implementação" meeting="false" start="2014-10-29" duration="90" complete="0" expand="true">
+                    <task id="41" name="avaliar locais para implementar o chip" color="#8cb6ce" meeting="false" start="2014-10-29" duration="15" complete="0" expand="true">
+                        <depend id="51" type="2" difference="0" hardness="Strong"/>
+                        <depend id="61" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="43" name="aplicar chip" color="#8cb6ce" meeting="false" start="2015-02-20" duration="10" complete="0" expand="true">
+                        <depend id="44" type="2" difference="0" hardness="Strong"/>
+                        <depend id="45" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                </task>
+                <task id="8" name="Teste" meeting="false" start="2015-03-06" duration="15" complete="0" expand="true">
+                    <task id="44" name="testar funcionamento do chip" color="#8cb6ce" meeting="false" start="2015-03-06" duration="15" complete="0" expand="true"/>
+                    <task id="45" name="testar causas de problemas" color="#8cb6ce" meeting="false" start="2015-03-06" duration="5" complete="0" expand="true"/>
+                </task>
+            </task>
+            <task id="9" name="Leitor" meeting="false" start="2014-10-29" duration="29" complete="0" expand="true">
+                <task id="10" name="Implementação" meeting="false" start="2014-10-29" duration="15" complete="0" expand="true">
+                    <depend id="47" type="2" difference="0" hardness="Strong"/>
+                    <task id="46" name="pontos de distribuição e venda do leitor" color="#8cb6ce" meeting="false" start="2014-10-29" duration="15" complete="0" expand="true"/>
+                </task>
+                <task id="11" name="Teste" meeting="false" start="2014-11-19" duration="14" complete="0" expand="true">
+                    <task id="47" name="testar funcionalidade do leitor em uso com o chip" color="#8cb6ce" meeting="false" start="2014-11-19" duration="14" complete="0" expand="true"/>
+                </task>
+            </task>
+            <task id="12" name="Base de dados" meeting="false" start="2014-10-29" duration="40" complete="0" expand="true">
+                <depend id="18" type="2" difference="0" hardness="Strong"/>
+                <task id="13" name="Implementação" meeting="false" start="2014-10-29" duration="33" complete="0" expand="true">
+                    <depend id="52" type="2" difference="0" hardness="Strong"/>
+                    <task id="48" name="construção de base" color="#8cb6ce" meeting="false" start="2014-10-29" duration="15" complete="0" expand="true">
+                        <depend id="50" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="50" name="testar base" color="#8cb6ce" meeting="false" start="2014-11-19" duration="14" complete="0" expand="true">
+                        <depend id="49" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="49" name="implementar base no servidor" color="#8cb6ce" meeting="false" start="2014-12-09" duration="4" complete="0" expand="true"/>
+                </task>
+                <task id="14" name="Cadastro dos chips" meeting="false" start="2014-11-19" duration="25" complete="0" expand="true">
+                    <task id="51" name="locação de lugares para cadastro de informação" color="#8cb6ce" meeting="false" start="2014-11-19" duration="20" complete="0" expand="true"/>
+                    <task id="52" name="testar capacidade da base para a quantidade de chips" color="#8cb6ce" meeting="false" start="2014-12-15" duration="7" complete="0" expand="true"/>
+                </task>
+            </task>
+            <task id="16" name="Marketing sobre implementação" meeting="false" start="2015-01-12" duration="9" complete="0" expand="true">
+                <depend id="62" type="2" difference="0" hardness="Strong"/>
+                <depend id="63" type="2" difference="0" hardness="Strong"/>
+                <task id="17" name="Construção propaganda" meeting="false" start="2015-01-12" duration="8" complete="0" expand="true">
+                    <depend id="21" type="2" difference="0" hardness="Strong"/>
+                    <task id="18" name="Redes sociais" color="#000000" meeting="false" start="2015-01-12" duration="1" complete="0" expand="true">
+                        <depend id="19" type="2" difference="0" hardness="Strong"/>
+                        <task id="53" name="divulgar no face" color="#8cb6ce" meeting="false" start="2015-01-12" duration="1" complete="0" expand="true"/>
+                        <task id="54" name="divulgar no twitter" color="#8cb6ce" meeting="false" start="2015-01-12" duration="1" complete="0" expand="true"/>
+                        <task id="55" name="divulgar no instagran" color="#8cb6ce" meeting="false" start="2015-01-12" duration="1" complete="0" expand="true"/>
+                    </task>
+                    <task id="19" name="Radio" color="#000000" meeting="false" start="2015-01-13" duration="2" complete="0" expand="true">
+                        <depend id="20" type="2" difference="0" hardness="Strong"/>
+                        <depend id="59" type="2" difference="0" hardness="Strong"/>
+                        <task id="56" name="contrato de divulgação com as rádios" color="#8cb6ce" meeting="false" start="2015-01-13" duration="1" complete="0" expand="true">
+                            <depend id="57" type="2" difference="0" hardness="Strong"/>
+                        </task>
+                        <task id="57" name="divulgar nas rádios" color="#8cb6ce" meeting="false" start="2015-01-14" duration="1" complete="0" expand="true"/>
+                    </task>
+                    <task id="20" name="TV" color="#000000" meeting="false" start="2015-01-15" duration="5" complete="0" expand="true">
+                        <task id="59" name="construção de video promocional" color="#8cb6ce" meeting="false" start="2015-01-15" duration="1" complete="0" expand="true">
+                            <depend id="58" type="2" difference="0" hardness="Strong"/>
+                        </task>
+                        <task id="60" name="entregar vídeo para divulgação" color="#8cb6ce" meeting="false" start="2015-01-21" duration="1" complete="0" expand="true"/>
+                        <task id="58" name="contrato com redes de televisão" color="#8cb6ce" meeting="false" start="2015-01-16" duration="3" complete="0" expand="true">
+                            <depend id="60" type="2" difference="0" hardness="Strong"/>
+                        </task>
+                    </task>
+                </task>
+                <task id="21" name="Divulgação" color="#000000" meeting="false" start="2015-01-22" duration="1" complete="0" expand="true">
+                    <task id="22" name="Chip" color="#8cb6ce" meeting="false" start="2015-01-22" duration="1" complete="0" expand="true"/>
+                    <task id="23" name="Leitor" color="#8cb6ce" meeting="false" start="2015-01-22" duration="1" complete="0" expand="true"/>
+                    <task id="24" name="Implementação" color="#8cb6ce" meeting="false" start="2015-01-22" duration="1" complete="0" expand="true"/>
+                </task>
+            </task>
+            <task id="25" name="Implementação do chip" meeting="false" start="2014-11-19" duration="65" complete="0" expand="true">
+                <depend id="29" type="2" difference="0" hardness="Strong"/>
+                <depend id="43" type="2" difference="0" hardness="Strong"/>
+                <task id="26" name="Alocação estrutura" meeting="false" start="2014-11-19" duration="4" complete="0" expand="true">
+                    <task id="61" name="assinatura e pagamento de contratos  de  locação" color="#8cb6ce" meeting="false" start="2014-11-19" duration="4" complete="0" expand="true"/>
+                </task>
+                <task id="27" name="Implementação" meeting="false" start="2015-01-23" duration="20" complete="0" expand="true">
+                    <task id="62" name="implementar o chip nas pessoas" color="#8cb6ce" meeting="false" start="2015-01-23" duration="20" complete="0" expand="true"/>
+                </task>
+            </task>
+            <task id="28" name="Implementação da solução" color="#000000" meeting="false" start="2015-02-20" duration="51" complete="0" expand="true">
+                <task id="29" name="Distribuição" color="#000000" meeting="false" start="2015-02-20" duration="21" complete="0" expand="true">
+                    <task id="63" name="verificar solicitações para as soluções" color="#8cb6ce" meeting="false" start="2015-02-20" duration="5" complete="0" expand="true">
+                        <depend id="64" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="64" name="distribuir solução para os solicitantes" color="#8cb6ce" meeting="false" start="2015-02-27" duration="16" complete="0" expand="true">
+                        <depend id="65" type="2" difference="0" hardness="Strong"/>
+                        <depend id="68" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                </task>
+                <task id="30" name="Teste" meeting="false" start="2015-03-23" duration="30" complete="0" expand="true">
+                    <task id="65" name="testar funcionamento com solicitantes" color="#8cb6ce" meeting="false" start="2015-03-23" duration="29" complete="0" expand="true">
+                        <depend id="66" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="66" name="prestar suporte" color="#8cb6ce" meeting="false" start="2015-05-05" duration="1" complete="0" expand="true"/>
+                </task>
+            </task>
+            <task id="31" name="Fechamento do projeto" color="#000000" meeting="false" start="2015-03-23" duration="44" complete="0" expand="true">
+                <task id="32" name="Relatorio de resultados" meeting="false" start="2015-03-23" duration="22" complete="0" expand="true">
+                    <task id="68" name="relatório com lições" color="#8cb6ce" meeting="false" start="2015-03-23" duration="10" complete="0" expand="true">
+                        <depend id="67" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="67" name="analise de rendimento" color="#8cb6ce" meeting="false" start="2015-04-06" duration="12" complete="0" expand="true">
+                        <depend id="69" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                </task>
+                <task id="33" name="Entrega do produto" meeting="false" start="2015-04-23" duration="22" complete="0" expand="true">
+                    <task id="69" name="aprovação do cliente" color="#8cb6ce" meeting="false" start="2015-04-23" duration="10" complete="0" expand="true">
+                        <depend id="70" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="70" name="fechamento oficial" color="#8cb6ce" meeting="false" start="2015-05-08" duration="12" complete="0" expand="true"/>
+                </task>
+            </task>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Cimara " function="4" contacts="" phone=""/>
+        <resource id="1" name="Tarcísio" function="Default:1" contacts="" phone=""/>
+        <resource id="2" name="Italo" function="2" contacts="" phone=""/>
+        <resource id="3" name="Osmar" function="4" contacts="" phone=""/>
+        <resource id="4" name="Amanda" function="3" contacts="" phone=""/>
+        <resource id="5" name="Jéssica" function="3" contacts="" phone=""/>
+        <resource id="6" name="Renata" function="3" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="44" resource-id="0" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="60" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="22" resource-id="0" function="Default:0" responsible="true" load="60.0"/>
+        <allocation task-id="23" resource-id="0" function="Default:0" responsible="true" load="20.0"/>
+        <allocation task-id="24" resource-id="0" function="Default:0" responsible="true" load="20.0"/>
+        <allocation task-id="69" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="70" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="52" resource-id="0" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="47" resource-id="0" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="43" resource-id="0" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="36" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="38" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="46" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="61" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="64" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="67" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="70" resource-id="1" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="37" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="52" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="53" resource-id="1" function="Default:1" responsible="true" load="40.0"/>
+        <allocation task-id="54" resource-id="1" function="Default:1" responsible="true" load="30.0"/>
+        <allocation task-id="55" resource-id="1" function="Default:1" responsible="true" load="30.0"/>
+        <allocation task-id="56" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="57" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="59" resource-id="1" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="58" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="59" resource-id="2" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="65" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="70" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="40" resource-id="2" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="46" resource-id="2" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="43" resource-id="2" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="51" resource-id="2" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="64" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="68" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="69" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="70" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="47" resource-id="3" function="4" responsible="true" load="50.0"/>
+        <allocation task-id="48" resource-id="3" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="50" resource-id="3" function="4" responsible="true" load="50.0"/>
+        <allocation task-id="63" resource-id="3" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="62" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="66" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="70" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="41" resource-id="4" function="3" responsible="true" load="30.0"/>
+        <allocation task-id="46" resource-id="4" function="3" responsible="false" load="20.0"/>
+        <allocation task-id="48" resource-id="4" function="3" responsible="true" load="50.0"/>
+        <allocation task-id="47" resource-id="4" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="49" resource-id="4" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="65" resource-id="4" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="62" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="66" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="70" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="48" resource-id="5" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="63" resource-id="5" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="51" resource-id="5" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="45" resource-id="5" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="65" resource-id="5" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="62" resource-id="6" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="64" resource-id="6" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="70" resource-id="6" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="49" resource-id="6" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="41" resource-id="6" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="68" resource-id="6" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="61" resource-id="6" function="3" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <taskdisplaycolumns>
+        <displaycolumn property-id="tpc0" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd2" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd7" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd8" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd6" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd1" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd0" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd11" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd10" order="0" width="32" visible="true"/>
+        <displaycolumn property-id="tpd3" order="1" width="364" visible="true"/>
+        <displaycolumn property-id="tpd4" order="2" width="94" visible="true"/>
+        <displaycolumn property-id="tpd5" order="3" width="86" visible="true"/>
+        <displaycolumn property-id="tpd9" order="4" width="91" visible="true"/>
+    </taskdisplaycolumns>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles>
+        <role id="2" name="Analista"/>
+        <role id="3" name="Desenvolvedor"/>
+        <role id="4" name="Testador"/>
+    </roles>
+</project>
