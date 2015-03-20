@@ -1,0 +1,27 @@
+recurso humano - 
+	- estagiario(para indicar funcionario do mês) não remunarado
+	- desenvolvedor sem conhecimento de medicina
+	
+Cronograma 
+	- adicionar reunioes
+	- adicionar funçoes do estagiario (verificar desenpenho e entregar foto do funcionário da semana)
+	- tirar tempo de implementação do chip
+
+EAP
+	- tirar implementação do chip 
+
+PlanejamentoDeCusto
+	- alterar custo total do projeto pois retirou etapas no cronograma.
+
+solicitacaoMudanca
+	- adicionar alteração dos documentos acima
+
+declaração de escopo 
+	- retirar implementação do chip na planilha de status de aceitação
+	- tirar e/ou -> ou
+	- alterar exclusão, adicionando: implementação do chip por responsabilidade do cliente.
+
+CORRETOS
+	termo de abertura
+
+
