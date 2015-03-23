@@ -1,20 +1,27 @@
-recurso humano - 
+﻿recurso humano - 
 	- (ok) estagiario(para indicar funcionario do mês) não remunarado 
 	- (ok) desenvolvedor sem conhecimento de medicina
 	
-Cronograma 
-	- adicionar reunioes
-	- adicionar funçoes do estagiario (verificar desenpenho e entregar foto do funcionário da semana)
-	- (ok)tirar tempo de implementação do chip // retirei tudo relevante a locação e aplicação// pessoas ficaram super alocados
+Cronograma
+ 
+	- (ok)adicionar pacote gerenciamento de equipe, contendo as atividades Reunioes e analise de desempenho
+	- (ok) nivelamento
+	- (ok)adicionar funçoes do estagiario (verificar desenpenho e entregar foto do funcionário da semana)
+	- (ok)tirar tempo de implementação do chip 	// retirei tudo relevante a locação e aplicação
+							// pessoas ficaram super alocados
 
 EAP
+	- Adicionar "Gerenciamento de aquipe" 	//Erro ao executar WBS
 	- tirar implementação do chip 
 
 PlanejamentoDeCusto
-	- alterar custo total do projeto pois retirou etapas no cronograma.
+	- alterar custo total do projeto pois retirou etapas no cronograma. //verificar alterações no cronograma 
+									    //para editar o custo
+									    //OBS: não sei para quem estava alocado as 	
+									    //atividades que foram removidas, para retirar do custo
 
 solicitacaoMudanca
-	- adicionar alteração dos documentos acima
+	- (ok)adicionar alteração dos documentos acima
 		-(ok) adicionado remoção de aplicações 
 
 declaração de escopo 
