@@ -10,9 +10,11 @@ Cronograma
 	- (ok)tirar tempo de implementação do chip 	// retirei tudo relevante a locação e aplicação
 							// pessoas ficaram super alocados
 
+	- (ok) adicionado construção de chip e leitor
+
 EAP
-	- Adicionar "Gerenciamento de aquipe" 	//Erro ao executar WBS
-	- tirar implementação do chip 
+	- (ok)Adicionar "Gerenciamento de aquipe" 	//Erro ao executar WBS
+	- (ok) tirar implementação do chip 
 
 PlanejamentoDeCusto
 	- alterar custo total do projeto pois retirou etapas no cronograma. //verificar alterações no cronograma 
